@@ -1,0 +1,185 @@
+/*************************************** 全局样式 ****************************/
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+.btn-resigner { 
+    color: #FFFFFF; 
+    background-color: #0AB4F7; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-resigner:hover, 
+  .btn-resigner:focus, 
+  .btn-resigner:active, 
+  .btn-resigner.active, 
+  .open .dropdown-toggle.btn-resigner { 
+    color: #FFFFFF; 
+    background-color: #086DF2; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-resigner:active, 
+  .btn-resigner.active, 
+  .open .dropdown-toggle.btn-resigner { 
+    background-image: none; 
+  } 
+   
+  .btn-resigner.disabled, 
+  .btn-resigner[disabled], 
+  fieldset[disabled] .btn-resigner, 
+  .btn-resigner.disabled:hover, 
+  .btn-resigner[disabled]:hover, 
+  fieldset[disabled] .btn-resigner:hover, 
+  .btn-resigner.disabled:focus, 
+  .btn-resigner[disabled]:focus, 
+  fieldset[disabled] .btn-resigner:focus, 
+  .btn-resigner.disabled:active, 
+  .btn-resigner[disabled]:active, 
+  fieldset[disabled] .btn-resigner:active, 
+  .btn-resigner.disabled.active, 
+  .btn-resigner[disabled].active, 
+  fieldset[disabled] .btn-resigner.active { 
+    background-color: #0AB4F7; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-resigner .badge { 
+    color: #0AB4F7; 
+    background-color: #FFFFFF; 
+  }
+
+  @font-face {
+    font-family:cg;
+    src:url(../fonts/lk.eot),
+    url(../fonts/lk.svg),
+    url(../fonts/lk.ttf),
+    url(../fonts/lk.woff)
+  }
+
+  [class^="icon-"],
+  [class*=" icon-"]{
+      font-family:cg;
+      font-style: normal;
+  }
+
+
+
+
+
+
+
+/*************************************** 全局样式 ****************************/
+
+
+
+
+/*************************************** 头部样式 ****************************/
+
+
+#cg_header .top-bar{
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid#e0e0e0 ;
+}
+
+
+#cg_header .top-bar .row>div+div{
+    border-left: 1px solid #e0e0e0;
+}                            
+#cg_header .top-bar .row .top-bar-1 a{
+    position:relative;
+}
+
+#cg_header .top-bar .row .top-bar-1 a img{
+    position: absolute;
+    top: 15px;
+    left:50%;
+    margin-left:-65px;
+    display: none;
+    z-index:99999;
+}
+
+#cg_header .top-bar .row .top-bar-1 a:hover img{
+    display: block;
+}
+
+.icon-phone::before{
+    content: '\e958';
+    font-size: 13px;
+}
+
+#cg_header .navbar-cg{
+  background-color: #fff;
+  /* border-bottom: 0 0 1px; */
+  margin-bottom: 0;
+  
+}
+
+#cg_header .navbar-cg .navbar-brand{
+  height:70px;
+  padding: 10px 15px;
+}
+
+#cg_header .navbar-cg .navbar-nav a{
+  height:70px;
+  line-height:40px;
+}
+
+#cg_header .navbar-cg .navbar-nav li.active a,
+#cg_header .navbar-cg .navbar-nav a:hover
+{
+  background-color: transparent;
+  border-bottom: 2px solid #0AB4F7;
+}
+
+#cg_header .navbar-cg .navbar-header .navbar-toggle{
+  margin-top: 15px;
+}
+
+
+
+/*************************************** 头部样式 ****************************/
+
+
+/*************************************** 轮播图样式 ****************************/
+
+#cg_banner .carousel-inner .item{
+  background:no-repeat center center;
+  background-size:cover;
+}
+
+
+
+@media screen and (min-width: 800px){
+  #cg_banner .carousel-inner .item{
+    height: 410px;
+  }
+}
+
+
+
+/*************************************** 轮播图样式 ****************************/
+
+/*************************************** 关于我们样式 ****************************/
+
+#cg_abort{
+  padding:15px 0;
+}
+#cg_abort .top{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+
+#cg_abort .container .row p{
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/*************************************** 关于我们样式 ****************************/
+
+
+
