@@ -181,5 +181,39 @@ body{
 
 /*************************************** 关于我们样式 ****************************/
 
+/*************************************** 产品特色样式 ****************************/
+#cg_product{
+  padding: 30px;
+  background:#f0f0f0;
+}
+
+#cg_product .nav-tabs li a{
+  font-size:18px;
+  color:#999;
+  border:none;
+}
+#cg_product .nav-tabs li.active a{
+  color:#000;
+  background:transparent;
+  border-bottom:2px solid #0AB4F7;
+}
+
+#cg_product .tab-content{
+  padding-top:20px;
+}
+#cg_product .tab-content .tab1-left{
+  padding:40px 0;
+}
+#cg_product .tab-content .tab1-left .media-body{
+  padding-top:100px;
+}
+#cg_product .tab-content .tab1-left .breadcrumb{
+  background:transparent;
+}
+
+
+
+/*************************************** 产品特色样式 ****************************/
+
 
 
