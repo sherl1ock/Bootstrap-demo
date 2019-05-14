@@ -253,3 +253,40 @@ body{
 
 
 /*************************************** 友情链接样式 ****************************/
+
+/*************************************** 尾部样式 *******************************/
+#cg_footer{
+  height:190px;
+  /* padding-top:20px; */
+  background:no-repeat center;
+  background-image: url('/imgs/ft_bg.png');
+  color:#fff;
+}
+
+#cg_footer .left,#cg_footer .middle{
+  height:170px;
+  border-right:1px solid #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cg_footer .left ul{
+  list-style:none;
+}
+#cg_footer .left ul>li{
+  line-height:40px;
+  padding:5px;
+}
+
+#cg_footer .container .right{
+  height:170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+/*************************************** 尾部样式 *******************************/
