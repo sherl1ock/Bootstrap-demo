@@ -65,7 +65,12 @@ body{
   }
 
 
-
+  #cg_abort .top,#cg_hot .top,#cg_link .top{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  }
 
 
 
@@ -167,12 +172,7 @@ body{
 #cg_abort{
   padding:15px 0;
 }
-#cg_abort .top{
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-}
+
 
 #cg_abort .container .row p{
   font-size: 14px;
@@ -211,9 +211,45 @@ body{
   background:transparent;
 }
 
+#cg_product .tab-content #vip .col-md-8{
+  margin-top:100px;
+}
+
 
 
 /*************************************** 产品特色样式 ****************************/
 
 
+/*************************************** 热门课程样式 ****************************/
+#cg_hot .media-left{
+  width:20%;
+}
+#cg_hot .media-body{
+  width:60%;
+  vertical-align: middle;
+}
+#cg_hot .media-right{
+  width:20%;
+  font-size:18px;
+  vertical-align:middle;
+}
+#cg_hot .lesson{
+  padding:15px 0;
+}
+/*************************************** 热门课程样式 ****************************/
 
+/*************************************** 友情链接样式 ****************************/
+
+#cg_link .logos{
+  list-style:none;
+  text-align:center;
+}
+#cg_link .logos>li{
+  
+  display:inline-block;
+  padding:30px;
+}
+
+
+
+/*************************************** 友情链接样式 ****************************/
